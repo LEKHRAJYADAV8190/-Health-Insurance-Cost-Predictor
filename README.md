@@ -391,5 +391,3 @@ If you need help with your contributions, feel free to:
 ### **🚀 Thank You for Contributing! 🎉**  
 Your contributions make this project better for everyone. We appreciate your support!  
 ```
-
----
