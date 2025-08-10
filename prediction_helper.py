@@ -3,8 +3,11 @@ import joblib
 
 model_young = joblib.load("model/model_young1.joblib")
 model_rest = joblib.load("model/model_rest.joblib")
-scaler_young = joblib.load("model/scaler_young1.joblib")
-scaler_rest = joblib.load("model/scaler_rest.joblib")
+# scaler_young = joblib.load("model/scaler_young1.joblib")
+# scaler_rest = joblib.load("model/scaler_rest.joblib")
+scaler_young = joblib.load("model/model_young1.joblib")
+scaler_rest = joblib.load("model/model_rest.joblib")
+
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {
